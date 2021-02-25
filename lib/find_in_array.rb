@@ -5,8 +5,8 @@ def find_element_index(array, value_to_find)
   found = nil
   counter = 0
 
-  while counter < array.length || found == nil do
-    binding.pry
+  while counter < array.length && found == nil do
+    #binding.pry
     if array[counter] == value_to_find
       found = counter
     end
